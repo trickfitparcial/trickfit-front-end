@@ -1,0 +1,44 @@
+<p>Planes TrickFit</p>
+<br>
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="idPlanes">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element?.idPlanes}} </td>
+  
+    </ng-container>
+  
+   
+    <ng-container matColumnDef="namePlan">
+      <th mat-header-cell *matHeaderCellDef> Plan </th>
+      <td mat-cell *matCellDef="let element"> {{element?.namePlan}} </td>
+    </ng-container>
+   
+    
+    <ng-container matColumnDef="detallesPlan">
+      <th mat-header-cell *matHeaderCellDef> Detalles </th>
+      <td mat-cell *matCellDef="let element"> {{element?.detallesPlan}} </td>
+    </ng-container>  
+
+    <ng-container matColumnDef="tiempoPlan">
+        <th mat-header-cell *matHeaderCellDef> Duracion </th>
+        <td mat-cell *matCellDef="let element"> {{element?.tiempoPlan}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="precioPlan">
+        <th mat-header-cell *matHeaderCellDef> Precio (Soles) </th>
+        <td mat-cell *matCellDef="let element"> {{element?.precioPlan}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="symbol">
+  
+      <th mat-header-cell *matHeaderCellDef> Symbol </th>
+    
+      <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+    
+    </ng-container>
+  
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

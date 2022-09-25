@@ -1,0 +1,41 @@
+<<div class="container">
+
+  <h1>Planes de paga</h1>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Id</mat-label>
+    <input matInput placeholder="id" [(ngModel)]="plan.id">
+  </mat-form-field>
+
+  <br>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Nombre</mat-label>
+    <input matInput placeholder="nombre" [(ngModel)]="plan.namePlan">
+
+  </mat-form-field>
+
+  <br>
+  <mat-form-field class="example-full-width">
+    <mat-label>Detalles</mat-label>
+    <input matInput placeholder="detalle" [(ngModel)]="plan.detallesPlan">
+  </mat-form-field>
+
+  <br>
+  <mat-form-field class="example-full-width">
+      <mat-label>Tiempo</mat-label>
+      <input matInput placeholder="tiempo" [(ngModel)]="plan.tiempoPlan">
+    </mat-form-field>
+  
+  <br>
+  <mat-form-field class="example-full-width">
+      <mat-label>Precio</mat-label>
+      <input matInput placeholder="precio" [(ngModel)]="plan.precioPlan">
+  </mat-form-field>
+  <br>
+  
+  <button mat-raised-button color="primary" (click)="aceptar()">Aceptar</button>
+  <button mat-raised-button color="warn" routerLink="/planes">Cancelar</button>
+  <p>{{mensaje}}</p>
+
+</div>

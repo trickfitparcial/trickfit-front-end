@@ -1,0 +1,31 @@
+<div class="container">
+
+    <h1>Ejercicio</h1>
+  
+    <mat-form-field class="example-full-width">
+      <mat-label>Id</mat-label>
+      <input matInput placeholder="id" [(ngModel)]="ejercicio.id">
+    </mat-form-field>
+  
+    <br>
+  
+    <mat-form-field class="example-full-width">
+      <mat-label>Titulo</mat-label>
+      <input matInput required placeholder="titulo" [(ngModel)]="ejercicio.tituloEjercicio">
+  
+    </mat-form-field>
+  
+    <br>
+    <mat-form-field class="example-full-width">
+      <mat-label>Descripcion</mat-label>
+      <input matInput required placeholder="descrip" [(ngModel)]="ejercicio.descripEjercicio">
+    </mat-form-field>
+  
+    <br>
+    <button mat-raised-button color="primary" (click)="aceptar()">Aceptar</button>
+    <button mat-raised-button color="warn" routerLink="/ejercicio">Cancelar</button>
+    <p>{{mensaje}}</p>
+  
+  </div>
+
+
