@@ -20,28 +20,24 @@
   "usuarios": [
     {
       "id": 1,
-      "nameUsuario": "Damian Robinson",
       "emailUsuario": "damianrobinson@gmail.com",
       "pesoUsuario": 80,
       "estaturaUsuario": 170
     },
     {
       "id": 2,
-      "nameUsuario": "Dorian Velasquez",
       "emailUsuario": "dorianvelasquez@hotmail.com",
       "pesoUsuario": 68,
       "estaturaUsuario": 180
     },
     {
       "id": 3,
-      "nameUsuario": "Kristen Yang",
       "emailUsuario": "kristenyang@outlook.com",
       "pesoUsuario": 65,
       "estaturaUsuario": 179
     },
     {
       "id": 4,
-      "nameUsuario": "Troy Waters",
       "emailUsuario": "troywaters4062@gmail.com",
       "pesoUsuario": 69,
       "estaturaUsuario": 180
@@ -63,14 +59,12 @@
     {
       "id": 1,
       "namePlan": "Plan nutricional",
-      "detallesPlan": "Consulta con nutricionista y recomendaciones de comida",
       "tiempoPlan": "1 mes",
       "precioPlan": 19.9
     },
     {
       "id": 2,
       "namePlan": "Plan nutricional",
-      "detallesPlan": "Consulta con nutricionista y recomendaciones de comida",
       "tiempoPlan": "3 mes",
       "precioPlan": 49.9
     }
