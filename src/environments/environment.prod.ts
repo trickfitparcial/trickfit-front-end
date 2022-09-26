@@ -1,16 +1,16 @@
 export const environment = {
   production: true,
-  host: "http://localhost:5000/alimentos",
-  host1: "http://localhost:5000/usuarios",
-  host2: "http://localhost:5000/preguntas",
-  host3: "http://localhost:5000/planes",
-  host4: "http://localhost:5000/recetas",
-  host5: "http://localhost:5000/ejercicios",
-  host6: "http://localhost:5000/registroalimenticio",
-  host7: "http://localhost:5000/bancos",
-  host8: "http://localhost:5000/citas",
-  host9: "http://localhost:5000/suscripcion",
-  host10: "http://localhost:5000/tipousuario"
+  host: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/alimentos",
+  host1: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/usuarios",
+  host2: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/preguntas",
+  host3: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/planes",
+  host4: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/recetas",
+  host5: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/ejercicios",
+  host6: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/registroalimenticio",
+  host7: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/bancos",
+  host8: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/citas",
+  host9: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/suscripcion",
+  host10: "https://my-json-server.typicode.com/trickfitparcial/trickfit-front-end/tipousuario"
 };
 
 //Cuando corres la app como prod que peurtoe s
